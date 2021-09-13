@@ -1,0 +1,6 @@
+functions:
+  todoToggle:
+    type: resolver
+    handler:
+      code: src/resolvers/todoToggle/handler.ts
+    schema: src/resolvers/todoToggle/schema.graphql
